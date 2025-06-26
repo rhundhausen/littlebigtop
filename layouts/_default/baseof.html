@@ -4,10 +4,12 @@
     {{ partial "meta.html" . }}
     <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
-    <!-- Bulma CSS -->
-    <link rel="stylesheet" href="{{ "css/bulma.css" | relURL }}">
-    <link rel="stylesheet" href="/css/custom.css">
-
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="{{ "/css/bulma.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/style.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/icons.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}">
+    
     {{ partial "css.html" . }}
   </head>
   <body class="{{ if .IsHome }}home{{ else }}{{ .Section }}{{ end }}">
