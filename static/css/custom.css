@@ -92,30 +92,28 @@ body.home {
 }
 
 /* === MOBILE RESPONSIVE STYLES === */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .landing-caption {
-    position: static;
-    transform: none;
-    padding-top: 2rem;
+    top: -.5in;
+    transform: none; /* Prevent center shift */
+    left: 0;
+    right: 0;
+    padding: 0 1rem;
   }
 
   .hero .title {
-    font-size: 12vw;
+    font-size: 3rem;
     -webkit-text-stroke: 1px red;
   }
 
   .hero .subtitle {
-    font-size: 6vw;
-    margin-top: 1rem;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
   }
 
   .landing-caption .button {
-    font-size: 4vw;
-    padding: 0.5rem 1rem;
     margin-top: 1rem;
-  }
-
-  body.home {
-    background-attachment: scroll;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
   }
 }
