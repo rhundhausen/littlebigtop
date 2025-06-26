@@ -11,18 +11,34 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Cache Hugo modules
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/hugo
+          key: ${{ runner.os }}-hugo-${{ hashFiles('**/go.sum') }}
+          restore-keys: |
+            ${{ runner.os }}-hugo-
+
       - name: Set up Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.147.9'  # Use whatever version your site needs
+          hugo-version: '0.147.9'
           extended: true
+
+      - name: Cache npm
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
 
       - name: Build site
         run: hugo --minify
 
       - name: List built files
         run: find public -type f
-  
+
       - name: Deploy to Cloudflare
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}

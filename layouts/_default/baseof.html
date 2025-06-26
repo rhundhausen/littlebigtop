@@ -15,9 +15,7 @@
   <body class="{{ if .IsHome }}home{{ else }}{{ .Section }}{{ end }}">
     {{ if ne .Site.Params.preloader false }}
     <!-- Preloader -->
-    <div id="preloader">
-      <div id="status"></div>
-    </div>
+    <!-- <div id="preloader"><div id="status"></div></div> -->
     {{ end }}
 
     {{ block "main" . }}
