@@ -93,17 +93,23 @@ body.home {
 
 /* === MOBILE RESPONSIVE STYLES === */
 @media screen and (max-width: 768px) {
+  .hero-body {
+    display: block !important;
+    padding: 2rem 1rem 1rem 1rem !important;
+    height: auto !important;
+  }
+
   .landing-caption {
-    top: -.5in;
-    transform: none; /* Prevent center shift */
-    left: 0;
-    right: 0;
-    padding: 0 1rem;
+    position: static !important;
+    transform: none !important;
+    margin-top: 0 !important;
+    padding-top: 1in; /* push content down from the top by ~1 inch */
   }
 
   .hero .title {
     font-size: 3rem;
     -webkit-text-stroke: 1px red;
+    margin-top: -1in; /* lift the title up by ~1 inch */
   }
 
   .hero .subtitle {
