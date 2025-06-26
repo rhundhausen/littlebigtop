@@ -20,6 +20,9 @@ jobs:
       - name: Build site
         run: hugo --minify
 
+      - name: List built files
+        run: find public -type f
+  
       - name: Deploy to Cloudflare
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
