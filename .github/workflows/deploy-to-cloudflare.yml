@@ -21,11 +21,8 @@ jobs:
         run: hugo --minify
 
       - name: Deploy to Cloudflare
-        uses: cloudflare/pages-action@v1
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: little-big-top
-          directory: public
-          branch: main
-          wranglerVersion: 4
+        run: npx wrangler pages deploy public \
+          --project-name=little-big-top \
+          --branch=main \
+          --account-id=${{ secrets.CLOUDFLARE_ACCOUNT_ID }} \
+          --token=${{ secrets.CLOUDFLARE_API_TOKEN }}
