@@ -1,0 +1,33 @@
+name: Deploy to Cloudflare
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.147.9'  # Use whatever version your site needs
+          extended: true
+
+      - name: Build site
+        run: hugo --minify
+
+      - name: List built files
+        run: find public -type f
+  
+      - name: Deploy to Cloudflare
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          npx wrangler pages deploy public \
+            --project-name=little-big-top \
+            --branch=main
