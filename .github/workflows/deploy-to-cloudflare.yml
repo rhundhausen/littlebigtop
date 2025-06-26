@@ -1,4 +1,4 @@
-name: Deploy to Cloudflare Pages
+name: Deploy to Cloudflare
 
 on:
   workflow_dispatch:
@@ -20,10 +20,12 @@ jobs:
       - name: Build site
         run: hugo --minify
 
-      - name: Publish to Cloudflare Pages
+      - name: Deploy to Cloudflare
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           projectName: little-big-top
           directory: public
           branch: main
+          wranglerVersion: 2
