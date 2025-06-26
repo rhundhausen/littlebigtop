@@ -28,4 +28,4 @@ jobs:
           projectName: little-big-top
           directory: public
           branch: main
-          wranglerVersion: 2
+          wranglerVersion: 4
