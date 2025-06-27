@@ -38,4 +38,4 @@ url = "/contact/"
 
 [[params.navbar]]
 title = "Donate"
-url = "https://donate.example.com"
+url = "/donate/"
