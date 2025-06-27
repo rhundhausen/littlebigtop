@@ -19,7 +19,7 @@ content = "© 2025 Little Big Top, Inc. All rights reserved."
 # Add navbar links
 
 [params.navbarlogo]
-image = "logo.png"
+image = "logo-new.png"
 link = "/"
 width = 52
 height = 52

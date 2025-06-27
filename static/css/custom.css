@@ -1,26 +1,34 @@
 html, body {
-  background-color: #000 !important;
-  color: #fff !important;
+  background-color: #fff !important;
+  color: #000 !important;
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
 body.home {
-  margin: 0;
-  padding: 0;
-  background: url('/images/main.jpg') no-repeat center center fixed;
   background-size: cover;
   background-attachment: fixed;
-  background-color: #000; /* fallback color */
+  background-color: white !important;
+  color: #fff !important;
 }
 
 h1, h2, h3 {
-  color: #fff !important;
+  color: #000 !important;
+}
+
+body.home h1,
+body.home h2,
+body.home h3 {
+  color: black !important;
 }
 
 .content strong {
-  color: #fff !important;
+  color: #000 !important;
+}
+
+body.home .content strong {
+  color: black !important;
 }
 
 .hero, .main, .section, section {
@@ -78,7 +86,7 @@ h1, h2, h3 {
 }
 
 .navbar {
-  background-color: #000 !important;
+  background-color: #0047AB !important;
 }
 
 .navbar .navbar-item,
@@ -120,6 +128,7 @@ h1, h2, h3 {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   .hero-body {
     display: block !important;
     padding: 2rem 1rem 1rem 1rem !important;
@@ -130,21 +139,19 @@ h1, h2, h3 {
     position: static !important;
     transform: none !important;
     margin-top: 0 !important;
-    padding-top: 1in; /* push content down from the top by ~1 inch */
+    padding-top: 1in;
   }
 
   .hero .title {
     font-size: 3rem;
     -webkit-text-stroke: 1px red;
-    margin-top: -1in; /* lift the title up by ~1 inch */
+    margin-top: -1in;
   }
 
   .hero .subtitle {
     font-size: 1.5rem;
     margin-top: 0.5rem;
   }
-
-  /* Navbar and Hamburger menu */
 
   .navbar-menu {
     background-color: black !important;
