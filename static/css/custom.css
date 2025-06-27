@@ -1,4 +1,6 @@
 html, body {
+  background-color: #000 !important;
+  color: #fff !important;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -11,6 +13,14 @@ body.home {
   background-size: cover;
   background-attachment: fixed;
   background-color: #000; /* fallback color */
+}
+
+h1, h2, h3 {
+  color: #fff !important;
+}
+
+.content strong {
+  color: #fff !important;
 }
 
 .hero, .main, .section, section {
@@ -34,7 +44,7 @@ body.home {
 
 .landing-caption {
   position: absolute;
-  top: -.5in;
+  top: 0in;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -46,52 +56,63 @@ body.home {
 .hero .title {
   font-size: 150pt;
   font-weight: bold;
-  line-height: 1.25;
-  background: repeating-linear-gradient(
-    90deg,
-    red,
-    red 10px,
-    white 10px,
-    white 20px
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 2px red;
-  color: transparent;
-  position: relative;
-}
-
-.hero .title::before {
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
   color: red;
-  -webkit-text-stroke: 2px red;
+  -webkit-text-stroke: 2px white;
+  position: relative;
 }
 
 .hero .subtitle {
   color: #fff !important;
   font-size: 50pt;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
+  -webkit-text-stroke: 2px red;
   margin-top: 1in;
 }
 
-.landing-caption .button {
-  display: inline-block;
-  padding: 0.75rem 2rem;
-  border-color: #fff;
-  color: #fff;
-  margin-top: .5in;
+.landing-caption a.button {
+  display: none !important;
 }
 
-.landing-caption .button:hover {
-  background: #fff;
-  color: #000;
+:root {
+  --bulma-navbar-item-img-max-height: 80px !important;
+}
+
+.navbar {
+  background-color: #000 !important;
+}
+
+.navbar .navbar-item,
+.navbar .navbar-link {
+  color: white !important;
+}
+
+.navbar .navbar-item:hover,
+.navbar .navbar-link:hover {
+  background-color: #111 !important;
+  color: #ffdddd !important;
+}
+
+.navbar-item {
+  height: auto !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  align-items: center !important;
+}
+
+.navbar-item img {
+  height: 50px !important;
+  width: 50px !important;
+  max-height: 50px !important;
+  display: block !important;
+}
+
+.navbar.is-fresh .navbar-brand img {
+  height: auto !important;
+  max-height: 80px !important;
 }
 
 /* === MOBILE RESPONSIVE STYLES === */
+
 @media screen and (max-width: 768px) {
   .hero-body {
     display: block !important;
@@ -117,9 +138,24 @@ body.home {
     margin-top: 0.5rem;
   }
 
-  .landing-caption .button {
-    margin-top: 1rem;
-    font-size: 1rem;
-    padding: 0.5rem 1.5rem;
+  /* Navbar and Hamburger menu */
+
+  .navbar-menu {
+    background-color: black !important;
+  }
+
+  .navbar-menu .navbar-item,
+  .navbar-menu .navbar-link {
+    color: white !important;
+  }
+
+  .navbar-menu .navbar-item:hover,
+  .navbar-menu .navbar-link:hover {
+    background-color: #111 !important;
+    color: #ffdddd !important;
+  }
+
+  .navbar-burger span {
+    background-color: white !important;
   }
 }

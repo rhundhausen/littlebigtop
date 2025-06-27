@@ -10,8 +10,6 @@ title = "Little Big Top Aerial"
 enabled = true
 title = "Little Big Top"
 subtitle = "Empowering Through Aerial Arts"
-buttonText = "Join Our Mission"
-buttonLink = "/about/"
 
 # Enable footer
 [params.footer]
@@ -20,17 +18,15 @@ content = "© 2025 Little Big Top, Inc. All rights reserved."
 
 # Add navbar links
 
-[[params.navbar]]
-title = "Home"
-url = "/"
+[params.navbarlogo]
+image = "logo.png"
+link = "/"
+width = 52
+height = 52
 
 [[params.navbar]]
 title = "About"
 url = "/about/"
-
-[[params.navbar]]
-title = "Programs"
-url = "/programs/"
 
 [[params.navbar]]
 title = "Events"
@@ -43,4 +39,3 @@ url = "/contact/"
 [[params.navbar]]
 title = "Donate"
 url = "https://donate.example.com"
-button = true
