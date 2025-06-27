@@ -1,5 +1,6 @@
 baseURL = "/"
 title = "Little Big Top Aerial"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -12,21 +13,34 @@ subtitle = "Empowering Through Aerial Arts"
 buttonText = "Join Our Mission"
 buttonLink = "/about/"
 
-[params.section1]
-enabled = false
-
-[params.section2]
-enabled = false
-
-[params.section3]
-enabled = false
-
-[params.section4]
-enabled = false
-
-[params.section5]
-enabled = false
-
+# Enable footer
 [params.footer]
 enabled = true
 content = "© 2025 Little Big Top, Inc. All rights reserved."
+
+# Add navbar links
+
+[[params.navbar]]
+title = "Home"
+url = "/"
+
+[[params.navbar]]
+title = "About"
+url = "/about/"
+
+[[params.navbar]]
+title = "Programs"
+url = "/programs/"
+
+[[params.navbar]]
+title = "Events"
+url = "/events/"
+
+[[params.navbar]]
+title = "Contact"
+url = "/contact/"
+
+[[params.navbar]]
+title = "Donate"
+url = "https://donate.example.com"
+button = true
