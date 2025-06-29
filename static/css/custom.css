@@ -64,16 +64,13 @@ body.home .content strong {
 .hero .title {
   font-size: 150pt;
   font-weight: bold;
-  color: red;
-  -webkit-text-stroke: 2px white;
+  color: black;
   position: relative;
 }
 
 .hero .subtitle {
-  color: #fff !important;
+  color: black !important;
   font-size: 38pt;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
-  -webkit-text-stroke: 2px red;
   margin-top: 1in;
 }
 
@@ -86,18 +83,19 @@ body.home .content strong {
 }
 
 .navbar {
-  background-color: #0047AB !important;
+  background-color: white !important;
+  border-bottom: 4px solid #0047AB; /* adjust thickness and color as needed */
 }
 
 .navbar .navbar-item,
 .navbar .navbar-link {
-  color: white !important;
+  color: black !important;
 }
 
 .navbar .navbar-item:hover,
 .navbar .navbar-link:hover {
-  background-color: #111 !important;
-  color: #ffdddd !important;
+  background-color: white !important;
+  color: red !important;
 }
 
 .navbar-item {
@@ -108,9 +106,9 @@ body.home .content strong {
 }
 
 .navbar-item img {
-  height: 50px !important;
-  width: 50px !important;
-  max-height: 50px !important;
+  height: 64px !important;
+  width: 64px !important;
+  max-height: 64px !important;
   display: block !important;
 }
 
@@ -154,12 +152,12 @@ body.home .content strong {
   }
 
   .navbar-menu {
-    background-color: black !important;
+    background-color: white !important;
   }
 
   .navbar-menu .navbar-item,
   .navbar-menu .navbar-link {
-    color: white !important;
+    color: black !important;
   }
 
   .navbar-menu .navbar-item:hover,
@@ -169,6 +167,6 @@ body.home .content strong {
   }
 
   .navbar-burger span {
-    background-color: white !important;
+    background-color: black !important;
   }
 }
