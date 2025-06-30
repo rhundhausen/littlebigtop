@@ -29,10 +29,6 @@ title = "About"
 url = "/about/"
 
 [[params.navbar]]
-title = "Events"
-url = "/events/"
-
-[[params.navbar]]
 title = "Contact"
 url = "/contact/"
 
