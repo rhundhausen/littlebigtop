@@ -127,6 +127,10 @@ body.home .content strong {
     padding-right: 1rem;
   }
 
+  h1 {
+    margin-top: 1.5rem; /* Add spacing above the title */
+  }
+
   .hero-body {
     display: block !important;
     padding: 2rem 1rem 1rem 1rem !important;

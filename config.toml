@@ -29,6 +29,10 @@ title = "About"
 url = "/about/"
 
 [[params.navbar]]
+title = "Gallery"
+url = "/gallery/"
+
+[[params.navbar]]
 title = "Contact"
 url = "/contact/"
 
