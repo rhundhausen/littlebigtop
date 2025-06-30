@@ -21,8 +21,8 @@ content = "© 2025 Little Big Top, Inc. All rights reserved."
 [params.navbarlogo]
 image = "logo.png"
 link = "/"
-width = 52
-height = 52
+width = 48  
+height = 48
 
 [[params.navbar]]
 title = "About"
