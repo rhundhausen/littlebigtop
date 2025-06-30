@@ -9,7 +9,7 @@ title = "Little Big Top Aerial"
 [params.hero]
 enabled = true
 title = ""
-subtitle = "Empowering Children Through Circus Arts"
+subtitle = "Empowering Youth Through Circus Arts"
 
 # Enable footer
 [params.footer]
