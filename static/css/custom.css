@@ -70,6 +70,7 @@ body.home .content strong {
 
 .hero .subtitle {
   color: black !important;
+  font-weight: bold;
   font-size: 38pt;
   margin-top: 1in;
 }
@@ -153,7 +154,8 @@ body.home .content strong {
   .hero .subtitle {
     font-size: 1.5rem;
     margin-top: 0.5rem;
-  }
+    font-weight: bold;
+   }
 
   .navbar-menu {
     background-color: white !important;
