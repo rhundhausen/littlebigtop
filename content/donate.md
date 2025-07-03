@@ -13,7 +13,7 @@ Your donation helps us:
 - Maintain safe aerial equipment and performance gear.
 - Train and mentor the next generation of circus artists.
 
-Every dollar makes a difference — and all donations go directly toward our mission of building confidence, creativity, and community through circus arts.
+All donations go directly toward our mission of building confidence, creativity, and community through circus arts.
 
 ## How to Donate
 
