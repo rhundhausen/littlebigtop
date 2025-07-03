@@ -15,6 +15,8 @@ Your donation helps us:
 
 All donations go directly toward our mission of building confidence, creativity, and community through circus arts.
 
+![Donate](/images/donate.jpg)
+
 ## How to Donate
 
 We accept secure donations through PayPal. You can give a one-time gift or set up a recurring donation.
