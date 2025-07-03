@@ -19,3 +19,7 @@ Whether it's a community festival, a private party, or a school showcase, our tr
 ![Little Big Top Photo](/images/gallery/gallery6.jpg)
 ![Little Big Top Photo](/images/gallery/gallery7.jpg)
 ![Little Big Top Photo](/images/gallery/gallery9.jpg)
+![Little Big Top Photo](/images/gallery/gallery10.jpg)
+![Little Big Top Photo](/images/gallery/gallery11.jpg)
+![Little Big Top Photo](/images/gallery/gallery12.jpg)
+![Little Big Top Photo](/images/gallery/gallery13.jpg)
