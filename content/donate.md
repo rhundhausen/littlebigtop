@@ -3,9 +3,9 @@ title: "Donate"
 date: 2025-06-27
 ---
 
-## Support Little Big Top
+## Support Little Big Top Boise
 
-As a nonprofit organization, **Little Big Top** depends on community support to keep our circus arts programs accessible, empowering, and youth-led.
+As a nonprofit organization, **Little Big Top Boise** depends on community support to keep our circus arts programs accessible, empowering, and youth-led.
 
 Your donation helps us:
 - Provide scholarships for young performers  
