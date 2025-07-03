@@ -25,5 +25,23 @@
     <div id="backtotop"><a href="#"></a></div>
 
     {{ partial "javascript.html" . }}
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const items = document.querySelectorAll('.carousel-item');
+      let index = 0;
+
+      function showNextImage() {
+        items[index].classList.remove('is-active');
+        index = (index + 1) % items.length;
+        items[index].classList.add('is-active');
+      }
+
+      if (items.length > 0) {
+        items[0].classList.add('is-active');
+        setInterval(showNextImage, 3000); // every 3 seconds
+      }
+    });
+    </script>
   </body>
 </html>

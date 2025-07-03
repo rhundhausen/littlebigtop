@@ -3,6 +3,28 @@
 {{- $subtitle   := index $hero "subtitle" }}
 {{- $buttonText := index $hero "buttontext" }}
 {{- $buttonLink := index $hero "buttonlink" }}
+
+<style>
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.carousel-item {
+  display: none;
+  transition: opacity 0.5s ease;
+}
+.carousel-item.is-active {
+  display: block;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+</style>
+
 <div class="hero-body">
   <div class="landing-caption">
     <!-- <h1 class="title is-1 is-bold is-spaced"> -->
@@ -23,8 +45,15 @@
     </p>
     {{ end }}
 
-    <div class="gallery" style="display: block; text-align: center; margin-top: 2rem;">
-      <img src="/images/homepage.jpg" alt="Little Big Top" style="max-width: 100%; margin: 1rem auto; display: block;" />
+    {{ $galleryImages := resources.Match "images/gallery/*" }}
+
+    <div id="carousel" class="carousel" style="text-align: center; margin-top: 2rem;">
+      {{ range $i, $img := $galleryImages }}
+        <div class="carousel-item{{ if eq $i 0 }} is-active{{ end }}">
+          <img src="{{ $img.RelPermalink }}" alt="Gallery image {{ add $i 1 }}" style="max-width: 100%; margin: 1rem auto; display: block;" />
+        </div>
+      {{ end }}
     </div>
+
   </div>
 </div>
