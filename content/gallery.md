@@ -5,11 +5,9 @@ date: 2025-06-30
 
 Welcome to the **Little Big Top Boise** photo gallery!
 
-Step behind the curtain and relive the magic of our most memorable moments. From soaring silks to dazzling lyra spins, these snapshots capture the spirit, strength, and joy of our young performers in action.
+See the magic of some of our favorite moments. These photos capture the  spirit, strength, and joy of our young performers in action.
 
-Each image is a glimpse into the heart of Little Big Top Boise — where confidence grows, creativity thrives, and circus dreams take flight.
-
-Whether it's a community festival, a private party, or a school showcase, our troupe brings energy and artistry to every performance. Enjoy the show!
+This gallery  is a glimpse into Little Big Top Boise — where confidence grows, creativity thrives, and our youth feel seen, supported, and strong. 
 
 ![Little Big Top Photo](/images/gallery/gallery1.jpg)
 ![Little Big Top Photo](/images/gallery/gallery2.jpg)
