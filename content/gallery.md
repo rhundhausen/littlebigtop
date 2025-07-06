@@ -3,11 +3,11 @@ title: "Photo Gallery"
 date: 2025-06-30
 ---
 
-Welcome to the **Little Big Top Boise** photo gallery!
+Welcome to **Little Big Top Boise's** photo gallery!
 
-See the magic of some of our favorite moments. These photos capture the  spirit, strength, and joy of our young performers in action.
+See the magic of our favorite moments. 
 
-This gallery  is a glimpse into Little Big Top Boise — where confidence grows, creativity thrives, and our youth feel seen, supported, and strong. 
+This gallery is a glimpse into Little Big Top Boise — where confidence grows, creativity thrives, and our youth feel seen, supported, and strong. 
 
 ![Little Big Top Photo](/images/gallery/gallery1.jpg)
 ![Little Big Top Photo](/images/gallery/gallery2.jpg)
