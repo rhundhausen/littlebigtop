@@ -5,7 +5,7 @@ title = "Little Big Top Boise"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
+    
 [params.hero]
 enabled = true
 title = ""
