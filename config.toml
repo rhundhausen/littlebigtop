@@ -33,6 +33,10 @@ title = "Gallery"
 url = "/gallery/"
 
 [[params.navbar]]
+title = "For Sale"
+url = "/for-sale/"
+
+[[params.navbar]]
 title = "Contact"
 url = "/contact/"
 
