@@ -11,7 +11,6 @@ Your donation helps us:
 
 - Provide travel cost assistance for our student athletes.
 - Maintain safe aerial equipment and performance gear.
-- Train and mentor the next generation of circus artists.
 
 All donations go directly toward our mission of building confidence, creativity, and community through circus arts.
 
