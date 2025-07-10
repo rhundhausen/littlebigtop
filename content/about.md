@@ -11,4 +11,4 @@ Little Big Top Boise is a nonprofit, based in Boise, Idaho. We support youth pur
 
 Our mission is to instill confidence, creativity and community in our student athletes – all while bringing joy and entertainment to the world around us.
 
-Little Big Top is a registered nonprofit in the state of Idaho (#6300310).
+Little Big Top is a registered nonprofit in the state of Idaho.
