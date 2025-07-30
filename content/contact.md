@@ -7,7 +7,7 @@ We’d love to hear from you!
 
 Whether you're interested in booking a performance, becoming a sponsor, or just want to learn more about **Little Big Top Boise**, we're here to connect.
 
- Email us at [littlebigtopboise@gmail.com](mailto:littlebigtopboise@gmail.com)  
+ Email us at [kristen@hundhausen.com](mailto:kristen@hundhausen.com)
  Based in the Treasure Valley, Idaho  
  Performances available year-round for festivals, schools, private parties, and community events
 
