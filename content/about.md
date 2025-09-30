@@ -3,12 +3,10 @@ title: "About Us"
 date: 2025-06-26
 ---
 
-Welcome to **Little Big Top Boise**!
+Welcome to **Little Big Top**!
 
-Little Big Top Boise is a nonprofit, based in Boise, Idaho. Through financial assistance and resources, we support youth pursuing circus arts. Student athletes focus on trapeze, aerial silks, lyra, and bring extra pizzazz with unicycling, juggling, and balloon artistry. Athletes are competition focused, but also perform at private events and community gatherings—blending classic circus magic with fresh, youthful energy.
+Little Big Top is a 501(c)(3) based in Boise, Idaho. We provide financial aid and resources to support youth pursuing non-traditional sports. The student athletes we support are driven by passion, with most focused on performance arts as their chosen field.
 
-![Little Big Top Photo](/images/gallery/gallery8.jpg)
+<img src="/images/girls.jpg" alt="Home" style="max-width: 50%; margin: 1rem auto; display: block;" />
 
-Our mission is to instill confidence, creativity and community in our student athletes – all while bringing joy and entertainment to the world around us.
-
-Little Big Top is a registered nonprofit in the state of Idaho.
+Our mission is to provide financial assistance that enables Treasure Valley youth to develop confidence, creativity, and community through performance arts.

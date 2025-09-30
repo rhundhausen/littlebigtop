@@ -28,13 +28,13 @@ height = 48
 title = "About"
 url = "/about/"
 
-[[params.navbar]]
-title = "Gallery"
-url = "/gallery/"
+# [[params.navbar]]
+# title = "Gallery"
+# url = "/gallery/"
 
-[[params.navbar]]
-title = "For Sale"
-url = "/for-sale/"
+# [[params.navbar]]
+# title = "For Sale"
+# url = "/for-sale/"
 
 [[params.navbar]]
 title = "Contact"
