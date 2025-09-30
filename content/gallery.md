@@ -3,7 +3,7 @@ title: "Photo Gallery"
 date: 2025-06-30
 ---
 
-Welcome to **Little Big Top Boise's** photo gallery!
+Welcome to **Little Big Top's** photo gallery!
 
 See the magic of our favorite moments. 
 

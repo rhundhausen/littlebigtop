@@ -3,7 +3,7 @@ title: "Donate"
 date: 2025-06-27
 ---
 
-## Support Little Big Top Boise
+## Support Little Big Top
 
 As a nonprofit organization, **Little Big Top** depends on community support in order to continue serving the young athletes in the Treasure Valley.
 
