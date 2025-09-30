@@ -7,7 +7,7 @@ date: 2025-06-27
 
 As a nonprofit organization, **Little Big Top** depends on community support in order to continue serving the young athletes in the Treasure Valley.
 
-All donations go directly toward our mission of building confidence, creativity, and community through circus arts.
+All donations go directly toward our mission of building confidence, creativity, and community through performance arts.
 
 <img src="/images/airport.jpg" alt="Home" style="max-width: 50%; margin: 1rem auto; display: block;" />
 
